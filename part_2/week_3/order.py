@@ -106,18 +106,18 @@ def random_call(seed=None, count=1, gender=None):
 
 
 # ------------------- 调用示例 -------------------
-# 示例1：随机点1名学生（不固定种子，每次结果不同）
+#示例1：随机点1名学生（不固定种子，每次结果不同）
 # print("【示例1：随机点1名学生】")
-# random_call(count=2)
+# random_call(count=1)
 
 # # # 示例2：固定种子点3名学生（结果可复现，种子=42）
-# print("\n【示例2：固定种子点3名学生（可复现）】")
-# random_call(seed=40, count=3)
+print("\n【示例2：固定种子点3名学生（可复现）】")
+random_call(seed=40, count=3)
 #
 # # 示例3：只点女生，点2名
 # print("\n【示例3：只点女生，点2名】")
 # random_call(count=2, gender='女')
 #
 # # 示例4：点5名男生（固定种子=100）
-print("\n【示例4：点5名男生（可复现）】")
-random_call(seed=100, count=5, gender='男')
+# print("\n【示例4：点5名男生（可复现）】")
+# random_call(seed=100, count=5, gender='男')
